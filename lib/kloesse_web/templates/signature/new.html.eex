@@ -1,0 +1,14 @@
+<h1>Hello!</h1>
+
+<body>
+    <form method=get action=/new/pagi >
+    <h2>Enter the page extent of the Front Matter</h2>
+        <input type=text name=fm placeholder="e.g., 10" autofocus/>
+    <h2>Enter the total page extent of the book 
+        <br>(without Front Matter)</h2>
+        <input type=text name=body placeholder="e.g., 968"/>
+    <hr>
+    <input type=submit value=Go! />
+    <input type=reset value=Reset />
+    </form>
+</body>
