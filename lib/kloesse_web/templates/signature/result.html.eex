@@ -1,12 +1,14 @@
-<head>
-<meta charset="utf-8">
-</head>
+<div class="body">
+    <h3>Tada...!</h3>
 
-<body>
-<h1>Results</h1>
-<p>
-<%= @result %>
-</p>
-<p> End </p>
-<!--it does render, but ... only !-->
-</body>
+    <div class="result">
+    <%= @result %>
+    </div>
+
+    <script src="<%= static_path(@conn, "/js/result.js") %>"></script>
+
+    <h3>End</h3>
+    <h3>To return, click <a herf="/">Start Again</a>
+    </h3>
+
+</div> 

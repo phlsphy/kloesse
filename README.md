@@ -10,7 +10,5 @@ Outputs:
 * Preferably in a printable format (PDF?).
 
 To do:
-* Output HTML at /new/page=blablabla. See result.html.eex. Rendering as unicode characters instead of list of numbers. 
-* Works if piped as JSON. Might need parser.
-* A unique header to Kloesse. 
-* A standard footer.
+* Add .js code to break at every 32 characters. Clean up results.html
+* LOL can't return to home.

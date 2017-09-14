@@ -16,7 +16,7 @@ defmodule KloesseWeb.Router do
   scope "/", KloesseWeb do
     pipe_through :browser # Use the default browser stack
 
-    #get "/", PageController, :index
+    get "/", PageController, :index
     get "/new", SignatureController, :new
     get "/new/pagi", SignatureController, :pagi
 

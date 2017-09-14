@@ -9,17 +9,13 @@
 
     <title>Hello Kloesse!</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata" rel="stylesheet">
   </head>
 
   <body>
     <div class="container">
       <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
-        </nav>
-        <span class="logo"></span>
+         <span class="logo"></span>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
@@ -31,5 +27,19 @@
 
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    
+    <div class="container">
+      <footer class="footer">
+        <ul class="list-unstyled">
+          <li><a href="https://github.com/phlsphy">Github</a></li>
+          <li><a href="">Blog</a> (Coming Soon)</li>
+          <li>Made with <a herf="https://elixir-lang.org/"> Elixir</a> and <a herf="http://phoenixframework.org/">Phoenix</a> by phlsphy.</li>
+          <li>MIT License &copy; 2017</li>
+        </ul>
+      </footer>
+    </div>
+
   </body>
+  
+
 </html>
