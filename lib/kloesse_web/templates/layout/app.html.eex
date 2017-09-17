@@ -7,17 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello Kloesse!</title>
+    <title>Kloesse</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Karla" rel="stylesheet">
   </head>
 
   <body>
     <div class="container">
-      <header class="header">
-         <span class="logo"></span>
-      </header>
-
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
@@ -31,10 +27,9 @@
     <div class="container">
       <footer class="footer">
         <ul class="list-unstyled">
+          <li>Made with &hearts; and out of boredom by phlsphy.</li>
           <li><a href="https://github.com/phlsphy">Github</a></li>
-          <li><a href="">Blog</a> (Coming Soon)</li>
-          <li>Made with <a herf="https://elixir-lang.org/"> Elixir</a> and <a herf="http://phoenixframework.org/">Phoenix</a> by phlsphy.</li>
-          <li>MIT License &copy; 2017</li>
+          <li>Blog (Coming Soon)</li>
         </ul>
       </footer>
     </div>

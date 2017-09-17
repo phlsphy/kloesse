@@ -20,17 +20,42 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 .megaphone,
 .container,
 .footer {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
-.changelog {
+.changelog,
+.preamble {
   font-family: 'Inconsolata', monospace;
 }
 
 /*---*/
 
+.megaphone {
+  padding-left: 15px;
+  text-decoration: underline;
+}
+
+.welcome {
+  text-align: left;
+  padding-left: 15px;
+}
+
 .body {
   padding-right: 15px;
   padding-left: 15px;
+  }
+
+.preamble {
+  border-top: 1px dashed #3a5254;
+  margin-top: 100px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.changelog {
+  padding-top: 5px;
+  background: #f0e6e2;
+  padding-bottom: 20px;
 }
 
 .footer {
@@ -38,15 +63,13 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
   padding-left: 15px;
   padding-top: 5px;
   border-top: 1px solid #3a5254;   
-  position: absolute;
+  position: sticky;
   bottom: 0;
-}
+  }
 
 .result {
   padding-right: 15px;
   padding-left: 15px;
-  max-width: 55ch;
-
 }
 
 /* Phoenix flash messages */
@@ -54,7 +77,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #3a5254;
+
 }
 
 .logo {
@@ -85,22 +108,14 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
   margin: 30px 0;
 }
 
-/* Name of app */
-.megaphone {
-    padding-left: 15px;
+ /* links */
+ a:link,
+ a:visited {
+  color: #2d7e7e;
 }
 
-/* Welcome message */
-.welcome {
-  text-align: left;
-  border-bottom: 1px solid #3a5254;
-  padding-left: 15px;
-}
-
-/* Release/changelog logs */
-.changelog {
-  margin-top: 100px;
-  padding-top: 10px;
-  background: #eeeeee;
-  padding-bottom: 10px;
+a:hover,
+a:active {
+  color: #ed9673;
+  background-color: #f0e6e2;
 }

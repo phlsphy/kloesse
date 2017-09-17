@@ -2,6 +2,7 @@
     <form method=get action=/new/pagi>
     <h3>Enter the page extent of the Front Matter</h3>
         <input type=text name=fm placeholder="e.g., 10" autofocus/>
+        <p>Psst...must be an even number.</p>
     <h3>Enter the total page extent of the book 
         <br>(without Front Matter)</h3>
         <input type=text name=body placeholder="e.g., 968"/>
