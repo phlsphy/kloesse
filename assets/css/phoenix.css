@@ -65,11 +65,13 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
   border-top: 1px solid #3a5254;   
   position: sticky;
   bottom: 0;
-  }
+}
 
 .result {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 30px;
+  font-size: 12pt;
+  line-height: 16pt;
 }
 
 /* Phoenix flash messages */

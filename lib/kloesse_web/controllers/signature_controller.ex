@@ -17,6 +17,7 @@ defmodule KloesseWeb.SignatureController do
         pagination = Enum.concat([fm_pagi,body_pagi])
             |>Enum.chunk_every(32)
             |>inspect(charlists: :as_lists) # prints to HTML as list/string
+            |>String.replace("], [","A") # replace text for easy parsing
 
         render conn, "result.html", result: pagination #this pipes it through to result.html
     

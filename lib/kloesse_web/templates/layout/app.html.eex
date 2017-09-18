@@ -36,5 +36,14 @@
 
   </body>
   
-
+  <!-- Results page javascript for easy parsing -->
+  <script type="text/javascript">
+    function ReplaceText() {
+      var re = /A/gi;
+      var str = document.getElementById("clean").innerHTML;
+      var res = str.replace(re,"<li>").replace("[[","<li>").replace("]]","");
+      document.getElementById("clean").innerHTML = res;
+    }
+    window.onload = ReplaceText;
+  </script>
 </html>
