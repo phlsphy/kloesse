@@ -42,6 +42,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 .body {
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 15px;
   }
 
 .preamble {
@@ -54,7 +55,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 
 .changelog {
   padding-top: 5px;
-  background: #f0e6e2;
+  background: #e5eded;
   padding-bottom: 20px;
 }
 
@@ -118,6 +119,6 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 
 a:hover,
 a:active {
-  color: #ed9673;
-  background-color: #f0e6e2;
+  color: #ffffff;
+  background-color: #2d7e7e;
 }
