@@ -39,7 +39,7 @@
     <h4>Version 1.0<br>(09.2017)</h4>
       <ul>
         <li> Divides page extent into chunks of 32 pages. </li>
-        <li> It just looks ugly in HTML at the moment. </li>
+        <li> Basic HTML output. </li>
       </ul>
 </div>
 
