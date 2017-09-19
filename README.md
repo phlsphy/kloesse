@@ -11,5 +11,4 @@ Inputs:
 Output:
 * The pages, broken into blocks of 32 pages. 
 
-To do:
-* Deploy to Heroku.
+Deployed on Heroku. Link: [https://kloesse.herokuapp.com/](https://kloesse.herokuapp.com/)
