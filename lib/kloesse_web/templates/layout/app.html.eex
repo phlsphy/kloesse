@@ -8,6 +8,7 @@
     <meta name="author" content="">
 
     <title>Kloesse</title>
+    <link rel="icon" type="image/x-icon" href="<%= static_path(@conn, "/images/favicon.ico") %>">
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Karla" rel="stylesheet">
   </head>
