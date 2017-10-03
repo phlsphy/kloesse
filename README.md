@@ -1,6 +1,6 @@
 # Kloesse
 
-A simple web app that divides the page extent of a book into chunks of 32 pages.
+A simple online calculator ~~web app~~ that divides the page extent of a book into chunks of 32 pages.
 
 There is a [wiki](https://github.com/phlsphy/kloesse/wiki) for a brief introduction on the app and its purpose. 
 
@@ -16,4 +16,3 @@ Deployed on Heroku. Link: [https://kloesse.herokuapp.com/](https://kloesse.herok
 # To Do
 * Deploy latest v1.1 onto Heroku.
 * Find `<br>` (legacy) and replace with `<br />`.
-
