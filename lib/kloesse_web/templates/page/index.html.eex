@@ -36,6 +36,11 @@
 
 <div class="changelog">
     <h3>Changelog</h3>
+    <h4>Version 1.1<br>(10.2017)</h4>
+      <ul>
+        <li> HTML output, with the help of JS and CSS, is satisfactory. </li>
+        <li> Does not work well (gibberish output) for page extent above 1,050 in total. </li>
+      </ul>
     <h4>Version 1.0<br>(09.2017)</h4>
       <ul>
         <li> Divides page extent into chunks of 32 pages. </li>
