@@ -12,3 +12,8 @@ Output:
 * The pages, broken into blocks of 32 pages. 
 
 Deployed on Heroku. Link: [https://kloesse.herokuapp.com/](https://kloesse.herokuapp.com/)
+
+# To Do
+* Deploy latest v1.1 onto Heroku.
+* Find `<br>` (legacy) and replace with `<br />`.
+
