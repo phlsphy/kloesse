@@ -40,9 +40,8 @@
   <!-- Results page javascript for easy parsing -->
   <script type="text/javascript">
     function ReplaceText() {
-      var re = /A/gi;
       var str = document.getElementById("clean").innerHTML;
-      var res = str.replace(re,"<li>").replace("[[","<li>").replace("]]","");
+      var res = str.replace(/A/g,"<br />&#9644;<br />").replace(/Z/g,"<br />").replace("[[[","").replace("]]]","");
       document.getElementById("clean").innerHTML = res;
     }
     window.onload = ReplaceText;

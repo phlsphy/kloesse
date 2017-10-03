@@ -17,9 +17,11 @@ defmodule KloesseWeb.SignatureController do
         pagination = Stream.concat([fm_pagi,body_pagi])
             |>Stream.chunk_every(2)
             |>Stream.map_every(2, fn x -> Enum.reverse(x) end) # reverses every second sub array
-            |>Enum.map_every(1, fn y -> Enum.reverse(y) end) # reverses back for left-to-right reading
+            |>Enum.map_every(1, fn y -> Enum.reverse(y) end) # reverses back for left-to-right reading; needs to be Enum for Stream to work
+            |>Enum.chunk_every(16)
             |>inspect(charlists: :as_lists) # prints to HTML as list/string
-            |>String.replace("], [","A") # replace text for easy parsing
+            |>String.replace("]], [[","A") # replace text for easy parsing
+            |>String.replace("], [","Z") # ditto
 
         render conn, "result.html", result: pagination #this pipes it through to result.html
     

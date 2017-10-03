@@ -2,13 +2,13 @@
   <h2>Kloesse</h2>
 </div>
 
-  <div class="welcome">
-    <h3>// A simple web app that divides the page extent of a book into chunks of 32 pages.
-    </h3>
-    <p><small>Even after using this to calculate the signature distribution of a book, do check with the printers. 
-    Each printer will have their own professional imposition software which should have the final say on the spread of the signatures.
-    </small></p>
-  </div>
+<div class="welcome">
+  <h3>// A simple web app that divides the page extent of a book into chunks of 32 pages.
+  </h3>
+  <p><small>Even after using this to calculate the signature distribution of a book, do check with the printers. 
+  Each printer will have their own professional imposition software which should have the final say on the spread of the signatures.
+  </small></p>
+</div>
 
 <div class="body">
   <h3>To start, click on <a href="/new"> New</a>.

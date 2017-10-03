@@ -69,19 +69,21 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 }
 
 .result {
-  padding-right: 10px;
-  padding-left: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
   font-size: 12pt;
   line-height: 16pt;
+  -webkit-column-count: 6;
+  -moz-column-count: 6;
+  column-count: 6;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  column-gap: 2em;
+  text-align: center;
 }
 
 /* Phoenix flash messages */
 .alert:empty { display: none; }
-
-/* Custom page header */
-.header {
-
-}
 
 .logo {
   width: 64px;
